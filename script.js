@@ -32,41 +32,41 @@ const perguntas = [
         ]
     },
     {
-        enunciado: "Voce pretende fazer faculdade?",
+        enunciado: "Após o ensino médio, qual caminho atrai você mais?",
         alternativas: [
             {
-                texto: "Sim.",
-                afirmacao: "Sim, pretendo ser um ótimo profissional."
+                texto: "Ingressar em uma faculdade ou curso técnico para obter uma formação especializada..",
+                afirmacao: "Seu plano envolve uma formação acadêmica ou técnica ."
             },
             {
-                texto: "Não.",
-                afirmacao: "Não, pretendo ficar trabalho com os meus pais."
+                texto: "Entrar no mercado de trabalho ou dedicar-se a um projeto pessoal ou familiar..",
+                afirmacao: "Você está considerando caminhos que priorizam a experiência prática imediata."
             }
         ]
     },
     {
-        enunciado: "Em que periodo voce está estudando no colégio?",
+        enunciado: "Qual é o seu nível de utilização de ferramentas de IA, como ChatGPT em atividades escolares?",
         alternativas: [
             {
-                texto: "Matutino.",
-                afirmacao: "No periodo da manhã."
+                texto: "Utilizo com frequência para pesquisa, rascunhos e apoio na escrita.",
+                afirmacao: "Você é um usuário frequente de IA como assistente de estudo e produção."
             },
             {
-                texto: "Vespertino",
-                afirmacao: "No periodo da tarde"
+                texto: "Não utilizo ou uso muito raramente, prefiro métodos tradicionais",
+                afirmacao: "Você tende a preferir métodos de estudo tradicionais e ainda não incorporou a IA."
             }
         ]
     },
     {
-        enunciado: "Voce utiliza o chatgpt para fazer atividades?",
+        enunciado: "Qual método de estudo funciona melhor para você absorver novos conteúdos?",
         alternativas: [
             {
-                texto: "Sim.",
-                afirmacao: "Me ajuda muito."
+                texto: "Aulas práticas, experimentos.",
+                afirmacao: "Aprende melhor fazendo e experimentando."
             },
             {
-                texto: "Não.",
-                afirmacao: "Não utilizo tá. "
+                texto: "Leitura de textos, resumos detalhados.",
+                afirmacao: "Prefere ver as informações organizadas. "
             }
         ]
     },
@@ -106,7 +106,7 @@ function respostaSelecionada(opcaoSelecionada){
 
 }
 function mostraResultado(){
-    caixaPerguntas.textContent = "Em 2049...";
+    caixaPerguntas.textContent = "Sobre...";
     textoResultado.textContent = historiaFinal;
     caixaAlternativas.textContent = "";
 
